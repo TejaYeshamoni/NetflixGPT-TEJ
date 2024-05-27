@@ -1,6 +1,6 @@
 import VideoBackground from './VideoBackground';
 import { TMDB_CDN_URL } from "../services/tmdb";
-import { PAGE } from '../router/routes';
+import { PAGE } from '../router/routers';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { setApp } from '../stores/appSlice';

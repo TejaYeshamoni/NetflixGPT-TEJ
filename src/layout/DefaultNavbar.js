@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { PAGE } from "../router/routes";
+import { PAGE } from "../router/routers";
 import { LOGO_RED } from "../utils/constants";
 
 const DefaultNavbar = () => {

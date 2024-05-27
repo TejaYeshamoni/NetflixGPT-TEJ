@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import validate from "../validator/validate";
-import { PAGE } from "../router/routes";
+import { PAGE } from "../router/routers";
 import { useRef, useState } from "react";
 import authenticate from "../auth/authenticate";
 

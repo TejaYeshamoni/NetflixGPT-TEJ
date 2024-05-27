@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { PAGE } from "../router/routes";
+import { PAGE } from "../router/routers";
 import { TMDB_CDN_URL } from "../services/tmdb";
 import { NO_POSTER } from "../utils/constants";
 import { LazyLoadImage } from "react-lazy-load-image-component";

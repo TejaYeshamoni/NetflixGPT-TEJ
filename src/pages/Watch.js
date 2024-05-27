@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link, useParams } from "react-router-dom";
 import usePlayer from "../hooks/usePlayer";
 import { TMDB_CDN_URL } from "../services/tmdb";
-import { PAGE } from "../router/routes";
+import { PAGE } from "../router/routers";
 import { useEffect } from "react";
 import { setPlayer } from "../stores/playerSlice";
 import Spinner from '../components/Spinner';

@@ -2,7 +2,7 @@ import { createHashRouter, createBrowserRouter, useNavigate } from "react-router
 import { useEffect } from "react";
 import { useSelector } from "react-redux";
 import loadable from '@loadable/component'
-import { PAGE } from "./routes";
+import { PAGE } from "./routers";
 import Spinner from "../components/Spinner";
 
 // import App from '../App';

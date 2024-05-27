@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { LOGO_RED } from '../utils/constants';
-import { PAGE } from '../router/routes';
+import { PAGE } from '../router/routers';
 
 const Footer = () => {
   return (

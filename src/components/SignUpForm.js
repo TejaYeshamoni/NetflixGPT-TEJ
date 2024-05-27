@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import { useDispatch } from 'react-redux';
 import { Link } from "react-router-dom";
 import register from "../auth/register";
-import { PAGE } from "../router/routes";
+import { PAGE } from "../router/routers";
 import validate from "../validator/validate";
 import { addUser } from "../stores/userSlice";
 

@@ -4,7 +4,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import { TMDB_CDN_URL } from "../services/tmdb";
 import { createPortal } from "react-dom";
 import MovieCardHover from "./MovieCardHover";
-import { PAGE } from "../router/routes";
+import { PAGE } from "../router/routers";
 import { NO_POSTER } from "../utils/constants";
 
 const MovieCard = ({ data }) => {

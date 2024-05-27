@@ -1,6 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { AVATAR_RED, LOGO_RED, BACKDROP, BASE_URL } from '../utils/constants';
-import { PAGE } from '../router/routes';
+import { PAGE } from '../router/routers';
 import { signOut } from 'firebase/auth';
 import { auth } from '../services/firebase';
 import { useEffect, useRef, useState } from 'react';

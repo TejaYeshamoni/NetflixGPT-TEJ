@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 import useMovie from "../hooks/useMovie";
 import { MOVIES, SHOWCASE } from "../services/tmdb";
-import Showcase from "../components/Showcase";
+import Showcase from "../components/ShowCase";
 import MovieSlider from "../components/MovieSlider";
 import useShowCase from "../hooks/useShowCase";
 import ShowcaseShimmer from "../components/ShowcaseShimmer";

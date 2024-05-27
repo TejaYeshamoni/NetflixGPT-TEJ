@@ -1,5 +1,5 @@
 
-import Showcase from '../components/Showcase';
+import Showcase from '../components/ShowCase';
 import MovieSlider from '../components/MovieSlider';
 import useMovie from '../hooks/useMovie';
 import useTrending from '../hooks/useTrending';
