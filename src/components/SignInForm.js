@@ -9,8 +9,8 @@ const SignInform = () => {
   const [authError, setAuthError] = useState(null);
   const [errorMessage, setErrorMessage] = useState(null);
 
-  const [emailPhone, setEmailPhone] = useState('test@demo.com');
-  const [password, setPassword] = useState('Test@123');
+  const [emailPhone, setEmailPhone] = useState('john@gmail.com');
+  const [password, setPassword] = useState('John@123');
   const navigate = useNavigate();
 
   const handleEmailPhone = (event) => {

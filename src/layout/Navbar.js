@@ -90,8 +90,6 @@ const Navbar = () => {
       <div className={`navbar ${showNavList && !isLargeScreen ? 'h-[115px]' : 'h-[70px]'} backdrop-blur-xl md:backdrop-blur-none fixed top-0 w-full px-4 md:px-12 py-3 text-white ${!isLargeScreen && 'ddd'}`} style={{
         zIndex: 9999999,
         backgroundColor: !isLargeScreen && 'rgba(0, 0, 0, 0.5)',
-        // backdropFilter: isLargeScreen ? 'blur(0)' : `blur(${navbarOpacity}px) contrast(60%)`,
-        // WebkitBackdropFilter: isLargeScreen ? 'blur(0)' : `blur(${navbarOpacity}px) contrast(60%)`,
         backgroundImage: isLargeScreen ? `linear-gradient(180deg, #141414 ${navbarOpacity}%,transparent)` : `url(${BACKDROP})`
       }}>
 
@@ -103,7 +101,7 @@ const Navbar = () => {
               </Link>
             </div>
           </div>
-          <div className="gap-6 ml-4 text-white text-sm hidden md:flex">
+          <div className="gap-6 ml-4 text-white md:text-xl  text-sm hidden md:flex font-bold">
             <Link to={PAGE.BROWSE} className='hover:text-gray-400'>Home</Link>
             <Link to={PAGE.SHOWS} className='hover:text-gray-400'>TV Show</Link>
             <Link to={PAGE.MOVIES} className='hover:text-gray-400'>Movies</Link>
@@ -112,8 +110,8 @@ const Navbar = () => {
           <div className="gap-6 ml-auto flex items-center">
             <Link to={PAGE.SEARCH} className='hover:text-gray-400 flex gap-2 items-center'>
               {/* <span className='icon-line text-[24px]'>search</span> */}
-              <SearchOutlinedIcon style={{ fontSize: '28px' }} />
-              <span className="hidden lg:block">Search</span>
+              <SearchOutlinedIcon style={{ fontSize: '36px' }} />
+              <span className="hidden lg:block font-bold">Search</span>
             </Link>
             <div className="profile-dropdown relative" ref={dropdownRef}>
               <div className="flex items-center gap-3 cursor-pointer" onClick={handlerDropDown}>
@@ -126,7 +124,7 @@ const Navbar = () => {
                 <div className="bg-black/95 absolute z-50 right-0 top-10 min-w-[170px] pt-2 border border-gray-900 rounded-md">
                   <a href='#!' className='flex items-center px-4 py-2 gap-3 text-xs text-slate-500 hover:text-white'>
                     <div className="w-5 h-5 bg-cyan-500"></div>
-                    <div className='title'>Neeraj</div>
+                    <div className='title'>TEJA</div>
                   </a>
                   <a href='#!' className='flex items-center px-4 py-2 gap-3 text-xs text-slate-500 hover:text-white'>
                     <div className="w-5 h-5 bg-green-500"></div>
