@@ -4,20 +4,9 @@ import { useSelector } from "react-redux";
 import loadable from '@loadable/component'
 import { PAGE } from "./routers";
 import Spinner from "../components/Spinner";
-
-// import App from '../App';
-// import Home from '../pages/Home';
-// import Browse from '../pages/Browse';
-// import Search from '../pages/Search';
-// import SignIn from '../pages/SignIn';
-// import SignUp from '../pages/SignUp';
-// import Profile from "../pages/Profile";
-// import TvShows from "../pages/TvShows";
-// import Movies from "../pages/Movies";
 import Latest from "../pages/Latest";
 import NotFoundPage from "../components/NotFoundPage";
-// import Watch from "../pages/Watch";
-// import About from "../pages/About";
+
 
 const App = loadable(() => import('../App'));
 const Home = loadable(() => import('../pages/Home'));
