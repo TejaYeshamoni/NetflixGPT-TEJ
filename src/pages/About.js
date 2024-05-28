@@ -22,11 +22,11 @@ const About = () => {
       </p>
 
       <div className='mb-8 text-gray-200'>
-        Github: <a href='https://github.com/TejaYeshamoni/NetflixGPT-TEJ' className='hover:text-blue-700 ml-3 text-blue-600 text-sm' target='_blank' rel='noreferrer'>NetflixGPT</a>
+        Github: <a href='https://github.com/TejaYeshamoni/NetflixGPT-TEJ' className='hover:text-blue-700 ml-3 text-blue-600 text-sm' target='_blank' rel='noreferrer'>NetflixGPT-TEJ</a>
         <br />
         Live Demo: <a href='' target='_blank' className='hover:text-blue-700 ml-3 text-blue-600 text-sm' rel='noreferrer'>Live Demo</a>
         <br></br>
-        Linkedin: <a href='www.linkedin.com/in/teja-yeshamoni/' className='hover:text-blue-700 ml-3 text-blue-600 text-sm' target='_blank' rel='noreferrer'>Neeraj Singh</a>
+        Linkedin: <a href='www.linkedin.com/in/teja-yeshamoni/' className='hover:text-blue-700 ml-3 text-blue-600 text-sm' target='_blank' rel='noreferrer'>Teja Yeshamoni</a>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div className='screen rounded overflow-hidden shadow-xl'>

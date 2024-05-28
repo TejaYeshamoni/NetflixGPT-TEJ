@@ -107,11 +107,11 @@ const Navbar = () => {
             <Link to={PAGE.MOVIES} className='hover:text-gray-400'>Movies</Link>
             <Link to={PAGE.LATEST} className='hover:text-gray-400'>New & Popular</Link>
           </div>
-          <div className="gap-6 ml-auto flex items-center">
+          <div className="gap-6 ml-auto flex items-center ">
             <Link to={PAGE.SEARCH} className='hover:text-gray-400 flex gap-2 items-center'>
               {/* <span className='icon-line text-[24px]'>search</span> */}
               <SearchOutlinedIcon style={{ fontSize: '36px' }} />
-              <span className="hidden lg:block font-bold">Search</span>
+              <span className="hidden lg:block font-bold">GPT Search</span>
             </Link>
             <div className="profile-dropdown relative" ref={dropdownRef}>
               <div className="flex items-center gap-3 cursor-pointer" onClick={handlerDropDown}>
@@ -121,7 +121,7 @@ const Navbar = () => {
                 <div className="text-sm hidden lg:block">{user.displayName}</div>
               </div>
               {isOpen &&
-                <div className="bg-black/95 absolute z-50 right-0 top-10 min-w-[170px] pt-2 border border-gray-900 rounded-md">
+                <div className="bg-black/95 absolute z-50 right-0 top-10 min-w-[170px] pt-2 border border-gray-900 rounded-md font-medium">
                   <a href='#!' className='flex items-center px-4 py-2 gap-3 text-xs text-slate-500 hover:text-white'>
                     <div className="w-5 h-5 bg-cyan-500"></div>
                     <div className='title'>TEJA</div>
