@@ -36,6 +36,9 @@ Here are some screenshots of NetflixGPT:
 ## Sign Up Page 
 ![Sign Up Page](public/ss-signup.png)
 
+### Movie Browse Page
+![Movie Browse Page](public/ss-browsepage.png)
+
 ### Movie List Page
 ![Movie List Page](public/ss-movielist.png)
 
