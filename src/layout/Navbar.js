@@ -8,6 +8,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { removeUser } from '../stores/userSlice';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 
+
 const Navbar = () => {
   const [showNavList, setShowNavList] = useState(true);
   const [navbarOpacity, setNavbarOpacity] = useState(0);
