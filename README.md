@@ -5,7 +5,12 @@ Experience NetflixGPT: A Feature-Rich, Mobile-Friendly Netflix Clone with Cuttin
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
+- [Screenshots](#screenshots)
 - [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
@@ -21,7 +26,34 @@ Join me in exploring the future of web development, where innovation meets user-
 - **State Management**: Manage application state effectively with Redux.
 - **Performance Optimization**: Fast load times with optimized Webpack configuration.
 - **Testing**: Robust testing framework using Jest.
-- **Styling**: Beautiful, modern UI with Tailwind CSS.
+- **Styling**: Beautiful, modern UI with Tail
+
+wind CSS.
+
+## Screenshots
+Here are some screenshots of NetflixGPT:
+
+### Landing Page
+![Home Page](public/ss-landing.png)
+
+## Sign In Page 
+![Sign In Page](public/ss-signin.png)
+
+## Sign Up Page 
+![Sign Up Page](public/ss-signup.png)
+
+### Movie List Page
+![Movie List Page](public/sslist.png)
+
+### Movie Watch Page
+![Movie Watch Page](public/ss-watchpage.png)
+
+### GPT Search Page
+![GPT Search Page](public/ss-gptsearchh.png)
+
+### Not Found Page
+![Not Found Page](public/ss-notfound.png)
+
 
 ## Tech Stack
 - **Frontend**: React, Redux, React Router, React-DOM, Tailwind CSS
@@ -32,4 +64,3 @@ Join me in exploring the future of web development, where innovation meets user-
 
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
-eds!
