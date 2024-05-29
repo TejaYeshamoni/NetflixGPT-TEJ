@@ -1,7 +1,3 @@
-Here's a comprehensive README file for your NetflixGPT project on GitHub:
-
----
-
 # NetflixGPT
 
 Experience NetflixGPT: A Feature-Rich, Mobile-Friendly Netflix Clone with Cutting-Edge Tech Stack! 🚀
