@@ -1,4 +1,4 @@
-# NetflixGPT
+# NetflixGPT-TEJ
 
 Experience NetflixGPT: A Feature-Rich, Mobile-Friendly Netflix Clone with Cutting-Edge Tech Stack! 🚀
 
@@ -7,10 +7,6 @@ Experience NetflixGPT: A Feature-Rich, Mobile-Friendly Netflix Clone with Cuttin
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
@@ -26,9 +22,7 @@ Join me in exploring the future of web development, where innovation meets user-
 - **State Management**: Manage application state effectively with Redux.
 - **Performance Optimization**: Fast load times with optimized Webpack configuration.
 - **Testing**: Robust testing framework using Jest.
-- **Styling**: Beautiful, modern UI with Tail
-
-wind CSS.
+- **Styling**: Beautiful, modern UI with Tailwind CSS.
 
 ## Screenshots
 Here are some screenshots of NetflixGPT:
@@ -43,7 +37,7 @@ Here are some screenshots of NetflixGPT:
 ![Sign Up Page](public/ss-signup.png)
 
 ### Movie List Page
-![Movie List Page](public/sslist.png)
+![Movie List Page](public/ss-movielist.png)
 
 ### Movie Watch Page
 ![Movie Watch Page](public/ss-watchpage.png)
@@ -53,6 +47,10 @@ Here are some screenshots of NetflixGPT:
 
 ### Not Found Page
 ![Not Found Page](public/ss-notfound.png)
+
+### Shimmer UI Page
+![Shimmer UI Page](public/ss-shimmer.png)
+
 
 
 ## Tech Stack
